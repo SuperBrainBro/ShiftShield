@@ -1,0 +1,7 @@
+C:\Users\Vincent\ShiftShield\Installer\ShiftShieldInstallerWPF\ShiftShieldInstallerSetup\bin\Debug\cab1.cab
+C:\Users\Vincent\ShiftShield\Installer\ShiftShieldInstallerWPF\ShiftShieldInstallerSetup\bin\Debug\ShiftShieldInstallerSetup.msi
+C:\Users\Vincent\ShiftShield\Installer\ShiftShieldInstallerWPF\ShiftShieldInstallerSetup\bin\Debug\ShiftShieldInstallerSetup.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\ShiftShieldInstallerSetup.wixproj.BindContentsFileListnull.txt
+obj\Debug\ShiftShieldInstallerSetup.wixproj.BindOutputsFileListnull.txt
+obj\Debug\ShiftShieldInstallerSetup.wixproj.BindBuiltOutputsFileListnull.txt

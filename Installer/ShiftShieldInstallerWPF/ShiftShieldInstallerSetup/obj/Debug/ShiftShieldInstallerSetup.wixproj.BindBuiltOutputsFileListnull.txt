@@ -1,0 +1,3 @@
+C:\Users\Vincent\ShiftShield\Installer\ShiftShieldInstallerWPF\ShiftShieldInstallerSetup\bin\Debug\cab1.cab
+C:\Users\Vincent\ShiftShield\Installer\ShiftShieldInstallerWPF\ShiftShieldInstallerSetup\bin\Debug\ShiftShieldInstallerSetup.msi
+C:\Users\Vincent\ShiftShield\Installer\ShiftShieldInstallerWPF\ShiftShieldInstallerSetup\bin\Debug\ShiftShieldInstallerSetup.wixpdb

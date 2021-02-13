@@ -22,7 +22,11 @@
     <Compile Include="Product.wxs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="Images\installer_background.bmp" />
+    <Content Include="Images\installer_top-banner.bmp" />
     <Content Include="ShiftShieldInstallerSetup.wax" />
+    <Content Include="License.rtf" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ShiftShieldInstallerWPF\ShiftShieldInstallerWPF.csproj">
@@ -33,6 +37,15 @@
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
       <RefTargetDir>INSTALLFOLDER</RefTargetDir>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WixExtension Include="WixUIExtension">
+      <HintPath>$(WixExtDir)\WixUIExtension.dll</HintPath>
+      <Name>WixUIExtension</Name>
+    </WixExtension>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images" />
   </ItemGroup>
   <Import Project="$(WixTargetsPath)" Condition=" '$(WixTargetsPath)' != '' " />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets" Condition=" '$(WixTargetsPath)' == '' AND Exists('$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets') " />

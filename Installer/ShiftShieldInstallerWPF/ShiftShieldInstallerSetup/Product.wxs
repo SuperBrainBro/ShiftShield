@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define ShiftShieldInstallerWPF_TargetDir=$(var.ShiftShieldInstallerWPF.TargetDir)?>
-	<Product Id="*" Name="Shift Shield" Language="1033" Version="1.1" Manufacturer="Vincent Jenei" UpgradeCode="ce36c490-930b-41e9-923f-7da02844c938">
-		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+	<Product Id="103662ff-9139-4d5c-ac70-a5e06a187af3" Name="Shift Shield" Language="1033" Version="1.1" Manufacturer="Vincent Jenei" UpgradeCode="ce36c490-930b-41e9-923f-7da02844c938">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    
+    <Icon Id="icon.ico" SourceFile="$(var.ProjectDir)Icon.ico" />
+    <Property Id="ARPPRODUCTICON" Value="icon.ico" />
 
+    <WixVariable Id="WixUIBannerBmp" Value="Images\installer_top-banner.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Images\installer_background.bmp" />
+    <WixVariable Id="WixUILicenseRtf" Value="$(var.ProjectDir)\license.rtf" />
+    
+    <UIRef Id="WixUI_Minimal" />
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
 		<MediaTemplate />
 
